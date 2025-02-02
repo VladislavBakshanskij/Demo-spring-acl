@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: demo-acl
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.xml
